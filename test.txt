@@ -140,8 +140,7 @@ users['Avril'][:pets][:sssteven]
 
 # or if we didn't know the name of her pet we could do
 
-pet_name = users['Avril'][:pets].keys.first
-users['Avril'][:pets][pet_name]
+users['Avril'][:pets].values.first
 
 5. Return the smallest of Erik's favorite numbers
 ---
