@@ -168,6 +168,7 @@ users['Erik'][:home_town] = 'Edinburgh'
 users['Erik'][:pets][:fluffy] = "dog"
 
 11. Add yourself to the users hash
+---
 users['Matthew'] = {
   twitter: 'mjeorrett',
   favourite_numbers: [0, 1],
